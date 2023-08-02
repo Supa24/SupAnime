@@ -2,8 +2,9 @@
 <html lang="en">
 
 <head>
+    <meta name="monetag" content="48f3eac171b750b346b26d91c59c5a56">
     <link rel="icon" type="image/x-icon"
-        href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYmVgQ1B4n8K5a5GjHNjwheCLQEzFvv5q3lMTsvf3whyaYhi1YhSLaKVraLqLP4cHN00da5LK9tzHEYruMl3h3BRPjbL6u0vAXPtCq2FtAMFooiUawHlZHpxkKQcQlMK6s4TFkbVujROXYt6sX42cX8Qpt2T2052PBWtMW9av7z8kh66CHxAXTF4A2Qdy5/s50/download.ico">
+        href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxGR2cbdl_8NUuTveeZeGH7hxPAcM2IYJv-oEvC5wj3SiM6T--nYfmWw9hFGiHiV811rNYyQZEnFDKSeZ6z97svQ7FpDv3MYiRYw6BhC8UnTTZrLTu-YYFqhmPNiLafuCDYkr3BPShxgkcT5_GGScX1ZEg6EgJakr_MQX9FQHlxtM42_tfxx-iJn_tKHZ2/s173/supacoco.ico">
     <title>SupAnime - Watch High Quality Anime Online</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="title" content="SupAnime - Watch High Quality Anime Online" />
@@ -92,7 +93,7 @@
     </footer>
     <hr>
 
-
+<script async="async" data-cfasync="false" src="//ophoacit.com/1?z=6183031"></script>
     <script>document.addEventListener("DOMContentLoaded", function () { const imageObserver = new IntersectionObserver((entries, imgObserver) => { entries.forEach((entry) => { if (entry.isIntersecting) { const lazyImage = entry.target; lazyImage.src = lazyImage.dataset.src; } }); }); const arr = document.querySelectorAll('img.lzy_img'); arr.forEach((v) => { imageObserver.observe(v); }); }); let slideIndex = 0; let clickes = 0; showSlides(slideIndex); function plusSlides(n) { showSlides(slideIndex += n); clickes = 1; }; function currentSlide(n) { showSlides(slideIndex = n); clickes = 1; }; function showSlides(n) { let i; let slides = document.getElementsByClassName("mySlides"); if (n > slides.length) { slideIndex = 1 } if (n < 1) { slideIndex = slides.length } for (i = 0; i < slides.length; i++) { slides[i].style.display = "none"; } slides[slideIndex - 1].style.display = "flex"; }; showSlides2(); async function showSlides2() { if (clickes == 1) { await sleep(10000); clickes = 0; } let i; let slides = document.getElementsByClassName("mySlides"); for (i = 0; i < slides.length; i++) { slides[i].style.display = "none"; } slideIndex++; if (slideIndex > slides.length) { slideIndex = 1 } slides[slideIndex - 1].style.display = "flex"; setTimeout(showSlides2, 5000); }; function sleep(ms) { return new Promise(resolve => setTimeout(resolve, ms)); }; const container = document.querySelector('.recento'); let page = 2; let isLoading = 0; let errCount = 0; function loadAnimes() { try { if (isLoading == 0) { isLoading = 1; const x = Array.from(document.querySelectorAll('.poster')).pop(); fetch('/api/latest/' + page.toString()).then(response => { return response.json(); }).then(data => { container.innerHTML += data['html']; x.scrollIntoView(); page += 1; isLoading = 0 }); errCount = 0; }; } catch (error) { isLoading = 0; errCount += 1; if (errCount < 5) { setTimeout(loadAnimes(), 2000); }; } }; window.addEventListener('scroll', () => { if (window.scrollY + window.innerHeight >= document.documentElement.scrollHeight) { loadAnimes(); } })</script>
 </body>
 
