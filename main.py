@@ -1,6 +1,7 @@
 from utils.db import update_views, update_watch
 from utils.html_gen import (
     animeRecHtml,
+    sitemapHtml,
     animeRecHtml2,
     episodeHtml,
     get_eps_html,
