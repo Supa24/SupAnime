@@ -25,7 +25,7 @@ TechZApi = TechZApi(API_KEY)
 @app.route("/favicon.ico")
 def favicon():
     return redirect(
-        "https://cdn.jsdelivr.net/gh/TechShreyash/AnimeDex@main/static/img/favicon.ico"
+        "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYmVgQ1B4n8K5a5GjHNjwheCLQEzFvv5q3lMTsvf3whyaYhi1YhSLaKVraLqLP4cHN00da5LK9tzHEYruMl3h3BRPjbL6u0vAXPtCq2FtAMFooiUawHlZHpxkKQcQlMK6s4TFkbVujROXYt6sX42cX8Qpt2T2052PBWtMW9av7z8kh66CHxAXTF4A2Qdy5/s50/download.ico"
     )
 
 
